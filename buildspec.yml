@@ -1,10 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - sudo yum install epel-release
-      - sudo yum install npm
   pre_build:
     commands:
       - echo Install Node Packages
@@ -19,5 +15,5 @@ phases:
 artifacts:
   files:
     - index.html
-    - dist
-    - public
+    - dist/*
+    - public/*
