@@ -1,0 +1,26 @@
+.interlude {
+  position: relative;
+  height: 50vh;
+  background-color: $color-primary-dark;
+
+  .moon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    max-width: 10%;
+    max-height: 10%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+  }
+
+  .astronaut {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+  }
+}

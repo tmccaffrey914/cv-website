@@ -1,0 +1,59 @@
+.star {
+  background-color: transparent;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+
+  &-shooting {
+    height: 0.2rem;
+    width: 0rem;
+    filter: drop-shadow(0 0 .6rem rgba(105, 155, 255, 1));
+    background: linear-gradient(to left, rgba(0, 0, 255, 0), rgba(95, 145, 255, 1));
+    transform: rotate(-15deg);
+  }
+}
+
+@for $i from 0 through 6 {
+  .star-spinning-#{$i} {
+    position: absolute;
+    background-color: transparent;
+    top: randomNum(10%, 60%);
+    left: chooseNumber(randomNum(10%, 40%), randomNum(60%, 90%));
+    transform: rotate(randomNum(0deg, 360deg));
+
+    .underlay {
+      position: absolute;
+      width: 2.5rem;
+      height: 2.5rem;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      background-color: rgb(228, 235, 156);
+    }
+
+    .overlay {
+      position: absolute;
+      width: 2.5rem;
+      height: 2.5rem;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      background-color: rgb(228, 235, 156);
+    }
+  }
+}
+
+
+
+@for $i from 0 through 40 {
+  .star-flashing-#{$i} {
+    $size: randomNum(0px, 3px);
+    position: absolute;
+    background-color: transparent;
+    top: chooseNumber(randomNum(0%, 50%), randomNum(60%, 80%));
+    left: chooseNumber(randomNum(0%, 40%), randomNum(60%, 100%));
+
+    .star {
+      border-radius: 50%;
+      background-color: $white;
+      width: $size;
+      height: $size;
+    }
+  }
+}

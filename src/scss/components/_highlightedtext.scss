@@ -1,0 +1,13 @@
+.highlight {
+  position: relative;
+  height: 25vw;
+  background-color: $color-alternate;
+  @include nohighlighting;
+
+  .highlight-position {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    padding: 5%
+  }
+}

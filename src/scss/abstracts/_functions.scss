@@ -1,0 +1,17 @@
+@function randomNum($min, $max) {
+  $rand: random();
+  $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+  @return $randomNum;
+}
+
+@function chooseNumber($first, $second) {
+  // This takes two numbers as input and randomly decides one of them to return.
+  $rand: random();
+  $randomNum: 0 + floor($rand * ((100 - 0) + 1));
+  @if $randomNum < 50 {
+    @return $first;
+  } @else {
+    @return $second;
+  }
+}

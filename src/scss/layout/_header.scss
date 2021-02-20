@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  height: 90vh;
+  background-image: linear-gradient(to top, $color-alternate 0%, $color-primary-light 30%, $color-primary 66%, $color-primary-dark 100%);
+
+  .text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .heading-primary {
+      color: $clear-white;
+      text-transform: uppercase;
+      text-align: center;
+
+      @include nohighlighting;
+
+      [class^="heading-primary"] {
+        animation-name: fadeIn;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-fill-mode: backwards;
+      }
+
+      &-main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+      }
+
+      &-sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 2.7rem;
+      }
+    }
+  }
+}

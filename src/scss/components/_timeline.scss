@@ -1,0 +1,134 @@
+.timeline {
+  background-color: $white;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+    justify-content: center;
+    @include nohighlighting;
+
+    .qub-1 {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: 0rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 2);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .citi {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 1);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .qub-2 {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 1);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .anomali {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 2.5);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .ibm {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: .25rem;
+      margin-right: 0rem;
+      width: calc(calc(100% / 8) * 0.5);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .y2013 {
+      margin-left: 0rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 2);
+      min-height: 100%;
+    }
+
+    .y2015 {
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 1);
+      min-height: 100%;
+    }
+
+    .y2016 {
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 1);
+      min-height: 100%;
+    }
+
+    .y2017 {
+      margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 8) * 2.5);
+      min-height: 100%;
+    }
+
+    .y2020 {
+      margin-left: .25rem;
+      margin-right: 0rem;
+      width: calc(calc(100% / 8) * 0.5);
+      min-height: 100%;
+    }
+  }
+}

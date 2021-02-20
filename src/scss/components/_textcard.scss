@@ -1,0 +1,29 @@
+.text-card-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .text-card {
+    padding: 5rem;
+    background-color: $white;
+    margin: 3rem;
+
+    &:first-child {
+      margin-left: 0rem;
+    }
+
+    &:last-child {
+      margin-right: 0rem;
+    }
+  }
+}
+
+.icon-wrap {
+  display: inline-block;
+
+  &-icon {
+    max-width: 25%;
+    max-height: 25%;
+    // position: block;
+  }
+}
