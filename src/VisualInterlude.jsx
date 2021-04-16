@@ -11,29 +11,20 @@ class VisualInterlude extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      moonPosition: 0,
       dustPosition: 0,
       astronautPosition: 0
     };
-    this.moon = React.createRef();
     this.dust = React.createRef();
     this.astronaut = React.createRef();
   }
 
   componentDidMount() {
-    const moonCoordinates = this.moon.current.getBoundingClientRect();
     const dustCoordinates = this.dust.current.getBoundingClientRect();
     const astronautCoordinates = this.astronaut.current.getBoundingClientRect();
     this.setState({
-      moonPosition: moonCoordinates.y,
       dustPosition: dustCoordinates.y,
       astronautPosition: astronautCoordinates.y
     });
-  }
-
-  resolveMoonTransformation(factorOfTranslation, direction) {
-    let difference = (this.props.scrollPosition - this.state.moonPosition) * direction;
-    return `translate(0rem, ${difference/factorOfTranslation}rem)`
   }
 
   resolveDustTransformation(factorOfTranslation, direction) {
@@ -54,7 +45,6 @@ class VisualInterlude extends React.Component {
             return <FlashingStar number={index} cursorX={this.props.cursorX} cursorY={this.props.cursorY}/>
           })
         }
-        <img ref={this.moon} class="moon" style={{top: "30%", left: "80%", maxWidth: "40%", maxHeight: "40%", transform: this.resolveMoonTransformation(180, -1)}} src={moon} alt="moon"/>
         <img ref={this.dust} class="moon" style={{top: "30%", left: "25%", maxWidth: "1%", maxHeight: "1%", transform: this.resolveDustTransformation(125, 1)}} src={moon} alt="moon"/>
         <img ref={this.dust} class="moon" style={{top: "26%", left: "26%", maxWidth: "2%", maxHeight: "2%", transform: this.resolveDustTransformation(150, 1)}} src={moon} alt="moon"/>
         <img ref={this.dust} class="moon" style={{top: "24%", left: "24%", maxWidth: "1%", maxHeight: "1%", transform: this.resolveDustTransformation(110, 1)}} src={moon} alt="moon"/>
