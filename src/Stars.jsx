@@ -57,7 +57,6 @@ class FlashingStar extends React.Component {
 
 
 function ShootingStar(scrollPosition) {
-  console.log(`Scroll Position: ${scrollPosition}`)
   return <div class="star">
     <div class="star-shooting" style={{width: scrollPosition < 200 ? `${scrollPosition / 10}rem` : "20.0rem"}}/>
   </div>;

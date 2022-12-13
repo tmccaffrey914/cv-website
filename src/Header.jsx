@@ -18,11 +18,6 @@ function Header(scrollPosition, cursorX, cursorY) {
             return <FlashingStar number={index} cursorX={cursorX} cursorY={cursorY}/>
           })
         }
-        {
-          [...Array(NUMBER_OF_SPINNING_STARS)].map( (star, index) => {
-            return SpinningStar(index, scrollPosition);
-          })
-        }
         {ShootingStar(scrollPosition)}
     </header>;
 }

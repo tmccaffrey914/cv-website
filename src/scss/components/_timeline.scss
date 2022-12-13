@@ -16,7 +16,7 @@
       color: $main-body-color-transparent;
       margin-left: 0rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 2);
+      width: calc(calc(100% / 10) * 2);
       min-height: 100%;
 
       transition-property: color;
@@ -33,7 +33,7 @@
       color: $main-body-color-transparent;
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 1);
+      width: calc(calc(100% / 10) * 1);
       min-height: 100%;
 
       transition-property: color;
@@ -50,7 +50,7 @@
       color: $main-body-color-transparent;
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 1);
+      width: calc(calc(100% / 10) * 1);
       min-height: 100%;
 
       transition-property: color;
@@ -67,7 +67,7 @@
       color: $main-body-color-transparent;
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 2.5);
+      width: calc(calc(100% / 10) * 2.5);
       min-height: 100%;
 
       transition-property: color;
@@ -83,8 +83,25 @@
       border-bottom: .5rem solid $color-alternate;
       color: $main-body-color-transparent;
       margin-left: .25rem;
+      margin-right: .25rem;
+      width: calc(calc(100% / 10) * 0.5);
+      min-height: 100%;
+
+      transition-property: color;
+      transition-duration: .5s;
+      transition-delay: .1s;
+
+      &:hover {
+        color: $main-body-color;
+      }
+    }
+
+    .qualtrics {
+      border-bottom: .5rem solid $color-alternate;
+      color: $main-body-color-transparent;
+      margin-left: .25rem;
       margin-right: 0rem;
-      width: calc(calc(100% / 8) * 0.5);
+      width: calc(calc(100% / 10) * 2);
       min-height: 100%;
 
       transition-property: color;
@@ -99,35 +116,42 @@
     .y2013 {
       margin-left: 0rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 2);
+      width: calc(calc(100% / 10) * 2);
       min-height: 100%;
     }
 
     .y2015 {
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 1);
+      width: calc(calc(100% / 10) * 1);
       min-height: 100%;
     }
 
     .y2016 {
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 1);
+      width: calc(calc(100% / 10) * 1);
       min-height: 100%;
     }
 
     .y2017 {
       margin-left: .25rem;
       margin-right: .25rem;
-      width: calc(calc(100% / 8) * 2.5);
+      width: calc(calc(100% / 10) * 2.5);
       min-height: 100%;
     }
 
     .y2020 {
       margin-left: .25rem;
       margin-right: 0rem;
-      width: calc(calc(100% / 8) * 0.5);
+      width: calc(calc(100% / 10) * 1);
+      min-height: 100%;
+    }
+
+    .y2021 {
+      margin-left: .25rem;
+      margin-right: 0rem;
+      width: calc(calc(100% / 10) * 1.5);
       min-height: 100%;
     }
   }

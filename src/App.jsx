@@ -48,7 +48,7 @@ class App extends React.Component {
             <HighlightedText scrollPosition={this.state.scrollPosition}>
               Hey, thanks for visiting my portfolio website!
               I am a freelance Designer, Engineer and Problem Solver.
-              Currently, I am working for IBM Cloud as an SRE but I have experience in
+              Currently, I am working for Qualtrics as a Senior Software Engineer. I have experience in
               Front & Backend Software Engineering, Web Design and DevOps.
             </HighlightedText>
           </section>

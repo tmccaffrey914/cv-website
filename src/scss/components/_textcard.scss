@@ -7,6 +7,9 @@
     padding: 5rem;
     background-color: $white;
     margin: 3rem;
+    width: 50%;
+
+    box-shadow: 0 0 5rem $color-primary-light;
 
     &:first-child {
       margin-left: 0rem;
