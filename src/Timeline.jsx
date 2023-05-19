@@ -64,7 +64,7 @@ function AboutInfoAndProjects() {
         "I was the main contact for Google Analytics integrations with Qualtrics Surveys",
         "Implemented an automation to notify Bosch Hiring Managers when a subordinate has completed their probationary period",
         "Ensuring maintenance of SLAs as a part of a monthly on-call rotation",
-        "Maintained SaaS applications by implementing CI/CD processes for each of the projects I was responsible for delivering",
+        "Designed and Delivered the 'Qualtrics Data Residency Solution' which was an AWS hosted collection of microservices tasked with preventing PII from leaving a given region",
         "Worked closely with 3rd Parties to gather requirements and ensure projects stay on track"
       ]
     )}
