@@ -21,6 +21,30 @@
   }
 }
 
+.text-card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .text-card {
+    padding: 1rem;
+    background-color: $white;
+    margin-top: 3rem;
+    height: 50%;
+    width: 100%;
+
+    box-shadow: 0 0 5rem $color-primary-light;
+
+    &:first-child {
+      margin-top: 0rem;
+    }
+
+    &:last-child {
+      margin-bottom: 0rem;
+    }
+  }
+}
+
 .icon-wrap {
   display: inline-block;
 

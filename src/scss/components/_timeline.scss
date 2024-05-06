@@ -156,3 +156,169 @@
     }
   }
 }
+
+.mobile-timeline {
+  background-color: $white;
+  padding: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 8;
+    justify-content: center;
+    @include nohighlighting;
+
+    .item {
+      flex-direction: row;
+      display: flex;
+      margin-bottom: .05rem;
+    
+      .qub-1 {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+        height: calc(calc(100% / 10) * 2);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .citi {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+        height: calc(calc(100% / 10) * 1);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .qub-2 {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+        height: calc(calc(100% / 10) * 1);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .anomali {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+        height: calc(calc(100% / 10) * 2.5);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .ibm {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+        height: calc(calc(100% / 10) * 0.5);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .qualtrics {
+        border-left: .5rem solid $color-alternate;
+        color: $main-body-color-transparent;
+        margin-left: .25rem;
+        padding-left: .25rem;
+
+        height: calc(calc(100% / 10) * 2);
+        min-height: fit-content;
+  
+        transition-property: color;
+        transition-duration: .5s;
+        transition-delay: .1s;
+  
+        &:hover {
+          color: $main-body-color;
+        }
+      }
+  
+      .y2013 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 2);
+        width: 10%;
+      }
+  
+      .y2015 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 1);
+        width: 10%;
+      }
+  
+      .y2016 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 1);
+        width: 10%;
+      }
+  
+      .y2017 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 2.5);
+        width: 10%;
+      }
+  
+      .y2020 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 1);
+        width: 10%;
+      }
+  
+      .y2021 {
+        margin-left: 0rem;
+        margin-right: .25rem;
+        height: calc(calc(100% / 10) * 1.5);
+        width: 10%;
+      }
+    }
+  }
+}
