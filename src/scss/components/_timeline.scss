@@ -163,6 +163,18 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 
+  h2 {
+    font-size: 3vw;
+  }
+
+  h4 {
+    font-size: 2vw;
+  }
+
+  h5 {
+    font-size: 1.5vw;
+  }
+
   .items {
     display: flex;
     flex-direction: column;
@@ -279,6 +291,7 @@
       }
   
       .y2013 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 2);
@@ -286,6 +299,7 @@
       }
   
       .y2015 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 1);
@@ -293,6 +307,7 @@
       }
   
       .y2016 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 1);
@@ -300,6 +315,7 @@
       }
   
       .y2017 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 2.5);
@@ -307,6 +323,7 @@
       }
   
       .y2020 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 1);
@@ -314,6 +331,7 @@
       }
   
       .y2021 {
+        font-size: 2vw;
         margin-left: 0rem;
         margin-right: .25rem;
         height: calc(calc(100% / 10) * 1.5);
