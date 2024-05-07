@@ -46,7 +46,7 @@ function MobileTimeline() {
             <div class="y2020"><h5>2020</h5></div>
             <div class="ibm">
               <h4>IBM Cloud</h4>
-              <h5>SRE</h5>
+              <h5>Site Reliability Engineer</h5>
             </div>
           </div>
 

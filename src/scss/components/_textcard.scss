@@ -27,6 +27,14 @@
   justify-content: center;
 
   .text-card {
+    h2 {
+      font-size: 3vw;
+    }
+
+    p, li {
+      font-size: 1.5vw;
+    }
+
     padding: 1rem;
     background-color: $white;
     margin-top: 3rem;
