@@ -1,6 +1,6 @@
 .timeline {
   background-color: $white;
-  padding: 3rem;
+  padding: 3vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
 
@@ -159,7 +159,7 @@
 
 .mobile-timeline {
   background-color: $white;
-  padding: 3rem;
+  padding: 3vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
 
@@ -167,6 +167,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 8;
+    padding-left: 20%;
     justify-content: center;
     @include nohighlighting;
 
@@ -182,7 +183,7 @@
         padding-left: .25rem;
         height: calc(calc(100% / 10) * 2);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
@@ -199,7 +200,7 @@
         padding-left: .25rem;
         height: calc(calc(100% / 10) * 1);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
@@ -216,7 +217,7 @@
         padding-left: .25rem;
         height: calc(calc(100% / 10) * 1);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
@@ -233,7 +234,7 @@
         padding-left: .25rem;
         height: calc(calc(100% / 10) * 2.5);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
@@ -250,7 +251,7 @@
         padding-left: .25rem;
         height: calc(calc(100% / 10) * 0.5);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
@@ -265,10 +266,9 @@
         color: $main-body-color-transparent;
         margin-left: .25rem;
         padding-left: .25rem;
-
         height: calc(calc(100% / 10) * 2);
         min-height: fit-content;
-  
+        width: 100%;
         transition-property: color;
         transition-duration: .5s;
         transition-delay: .1s;
